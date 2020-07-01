@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-  <meta name="theme-color" content="#bbd85e">
+  <meta name="theme-color" content="#3E7689">
   <!-- Favicons -->
 
   <!-- Bootstrap CSS File -->
@@ -14,8 +14,6 @@
   <!-- Libraries CSS Files -->
  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/aos.css" rel="stylesheet">
-  <!--<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> -->
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -108,12 +106,12 @@
     <!--/ About Section Start /-->
 <section id="about" class="about pad-4">
 <div class="container">
-  <div class="row rellax" data-aos="fade-up" data-rellax-speed="-1" data-rellax-percentage="0.5" data-rellax-zindex="999">
-    <div class="col-md-6 pad-4" data-aos="fade-right" data-aos-duration="1500"
+  <div class="row rellax" data-aos="fade" data-rellax-speed="-1" data-rellax-xs-speed="1" data-rellax-percentage="0.5" data-rellax-zindex="999">
+    <div class="col-md-6 pad-4" data-aos="fade-up" data-aos-duration="1500"
      >
           <img src="image/1.png" class="img-fluid img-shadow" alt="" />
   </div>
-  <div class="col-md-6 pad-4" data-aos="fade-left" data-aos-duration="1500"  
+  <div class="col-md-6 pad-4" data-aos="fade-up" data-aos-duration="1500"  
      >
     <h2><span>We Are CapriAqqua</span></h2>
     <p class="pt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
@@ -124,10 +122,10 @@
   </div>
   </div>
 </div>
-<div class="container rellax" data-aos="fade-up" data-rellax-speed="2" data-rellax-percentage="0.5" data-rellax-zindex="999">
+<div class="container rellax" data-aos="fade" data-rellax-speed="2" data-rellax-xs-speed="0" data-rellax-percentage="0.5" data-rellax-zindex="999">
     <div class="row">
         <h2 class="subhead"><span>Your Vision Meets Our Passion</span></h2>
-      <div class="col-md-6 pt-2" data-aos="fade-right" data-aos-duration="1500">
+      <div class="col-md-6 pt-2" data-aos="fade-up" data-aos-duration="1500">
         <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
           industry's standard
           dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
@@ -138,21 +136,20 @@
           and more
           recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       </div>
-            <div class="col-md-6 pt-2" data-aos="fade-left" data-aos-duration="1500">
+            <div class="col-md-6 pt-2" data-aos="fade-up" data-aos-duration="1500">
               <img src="image/2.png" class="img-fluid img-shadow" alt="" />
               <h2 class="pt-4 mt-4 text-right"><span>We Are Behind These...</span></h2>
             </div>
     </div>
 
     <div class="row pad-4">
-      <!-- <h2 class="pt-4 mt-4 text-right"><span>We Are Behind These...</span></h2> -->
-      <div class="col-md-3 pt-2" data-aos="fade-right" data-aos-duration="1500">
+      <div class="col-md-3 pt-2" data-aos="fade-up" data-aos-duration="1500">
         <img src="image/3.jpg" class="img-fluid pad-2 client-border" alt="" />
       </div>
       <div class="col-md-3 pt-2" data-aos="fade-down" data-aos-duration="1500">
         <img src="image/4.jpg" class="img-fluid pad-2 client-border" alt="" />
       </div>
-      <div class="col-md-3 pt-2" data-aos="fade-left" data-aos-duration="1500">
+      <div class="col-md-3 pt-2" data-aos="fade-up" data-aos-duration="1500">
         <img src="image/5.jpg" class="img-fluid pad-2 client-border" alt="" />
       </div>
     </div>
@@ -190,25 +187,21 @@
                   data-error="Name is required.">
               </div>
               <div class="form-box">
-                <input type="text" name="company_name" id="company_name" placeholder="company" required="required"
-                  data-error="Company Name is required.">
-              </div>
-              <div class="form-box">
                 <input type="email" name="email" id="email" placeholder="E-Mail ID" required="required"
                   data-error="E-mail id is required.">
               </div>
               <div class="form-box">
                 <input type="text" name="phone" id="phone" placeholder="contact no.">
               </div>
+                        <div class="form-box">
+                          <textarea class="form-control" id="comments" name="comments" rows="1" placeholder="Message" required="required"
+                            data-error="Please Enter Your Message."></textarea>
+                        </div>
               <div class="reserve-book-btn">
                 <button class="hvr-underline-from-center" type="submit" placeholder="SUBMIT" value="SEND"
                   id="submit">SUBMIT</button>
               </div>
             </form>
-            <!-- <div class="adds wow fadeInUp animated">#401, Tirumala Tara Luxuria  </div>
-            <div class="adds wow fadeInUp animated">Plot No 683 Jubilee Hills</div>
-            <div class="adds wow fadeInUp animated">Lane, opp. Tata Croma</div>
-            <div class="adds wow fadeInUp animated">Hyderabad, Telangana 500033</div> -->
           </div>
           <div class="col-md-4">
             <div class="adds wow fadeInUp animated pb-2">Address</div>
@@ -231,7 +224,7 @@
     <!-- Footer Section End -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <!-- <div id="preloader"></div> -->
+  <div id="preloader"></div>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/popper/popper.min.js"></script>
@@ -240,7 +233,6 @@
  <script src="lib/counterup/jquery.counterup.js"></script>
    <script src="lib/animate/aos.js"></script>
   <script src="lib/animate/rellax.min.js"></script>
-  <!-- <script src="lib/owlcarousel/owl.carousel.min.js"></script>   -->
   <script src="js/jquery.validate.min.js"></script>
  <!-- Template Main Javascript File -->
   <script src="js/custom.js"></script>
